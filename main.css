@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+canvas{
+    width: 90%;
+    height: 90%;
+}
+.infobox{
+    z-index: 10;
+    width: 450px;
+    position:absolute;
+    right: 20px;
+    top: 20px;
+    padding: 5px;
+    border-radius: 5px 5px;
+}
+
+.infobox .panels {
+    border: 1px solid #a7a6a6;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #ddd;
+    opacity: 0.8;
+    box-shadow: 2px 2px 5px #ccc;
+}
+.infobox .panels .hd{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.infobox code{
+    color: rgb(246, 28, 126);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.infobox span {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.infobox .panels .score {
+    font-size: 50px;
+}
+
+.paused {
+position: absolute;
+width: 80px;
+border-radius: 5px;
+border: 1px solid #a7a6a6;
+height: 20px;
+z-index: 20;
+background-color: #ddd;
+opacity: 0.8;
+box-shadow: 2px 2px 5px #ccc;
+margin: 400px 850px;
+padding: 15px 95px;
+text-transform: uppercase;
+text-align: center;
+font-weight: bold;
+font-size: 18px;
+}
+.hidden {
+    display: none;
+}
